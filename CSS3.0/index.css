@@ -1,0 +1,89 @@
+.radius{
+	width: 50px;
+	color: white;
+	background-color:black;
+	text-align: center;
+	border：2px solid;
+	border-radius: 25px;
+	-moz-border-radius:25px;/*Old Firefox*/
+	box-shadow: 5px 1px 5px #888888;
+}
+p{
+	font-weight: bold;
+}
+.radius:hover{
+	 color: gray;
+}
+
+.box_img{
+
+	width: 50px;
+	color: black;
+	text-align: center;
+	border: 15px solid;
+	/*................*/
+	border-image: url(./img/border.png) 30 30 round
+	-moz-border-image:url(./img/border.png) 30 30 round; /* 老的 Firefox */
+	-webkit-border-image:url(./img/border.png) 30 30 round; /* Safari 和 Chrome */
+	-o-border-image:url(./img/border.png) 30 30 round; /* Opera */
+}
+.text_ef{
+	text-shadow: 3px 3px 3px #FF0000;
+	word-wrap: break-word;/*允许查个单词换行到下一行*/}
+._2d{
+	height: 100px;
+	width:100px;
+	background-color: yellow; 
+	margin-top:10px;
+	word-wrap: break-word;
+	text-align: center;
+	transition: width 2s,height 3s, transform 2s;}
+
+/*#t1{
+	transform: translate(50px,0);
+-ms-transform: translate(50px,0);		
+-webkit-transform: translate(50px,0);	
+-o-transform: translate(50px,0);		
+-moz-transform: translate(50px,0);		
+}*/
+
+#t2:hover{
+	transform: rotate(30deg);
+	-ms-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+	-o-transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+}
+#t3{
+	/*transform:scale(2,4);
+	-ms-transform: scale(2,4);	/* IE 9 */
+	/*-webkit-transform: scale(2,4);	/* Safari 和 Chrome */
+	/*-o-transform: scale(2,4);	/* Opera */
+	/*-moz-transform: scale(2,4);	/* Firefox */
+}
+#t4:hover{
+	transform: skew(30deg,20deg);
+	-ms-transform: skew(30deg,20deg);	/* IE 9 */
+	-webkit-transform: skew(30deg,20deg);	/* Safari and Chrome */
+	-o-transform: skew(30deg,20deg);	/* Opera */
+	-moz-transform: skew(30deg,20deg);	/* Firefox */
+}
+
+#t5:hover{
+
+	transform:matrix(0.866,0.5,-0.5,0.866,0,0);
+	-ms-transform:matrix(0.866,0.5,-0.5,0.866,0,0);		/* IE 9 */
+	-moz-transform:matrix(0.866,0.5,-0.5,0.866,0,0);	/* Firefox */
+	-webkit-transform:matrix(0.866,0.5,-0.5,0.866,0,0);	/* Safari and Chrome */
+	-o-transform:matrix(0.866,0.5,-0.5,0.866,0,0);		/* Opera */
+}
+
+#t1:hover{
+	width: 80px;
+	height: 20px;
+	transform: translate(50px,0);
+-ms-transform: translate(50px,0);		/* IE 9 */
+-webkit-transform: translate(50px,0);	/* Safari and Chrome */
+-o-transform: translate(50px,0);		/* Opera */
+-moz-transform: translate(50px,0);		/* Firefox */
+}
