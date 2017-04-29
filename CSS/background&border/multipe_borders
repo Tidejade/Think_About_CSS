@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Multipe Borders</title>
+			<style>
+				#b{
+					width: 60px;
+					height: 80px;
+					background: yellowgreen;
+					box-shadow: 0 0 0 10px #655,
+								0 0 0 15px deeppink,
+								0 2px 5px 15px rgba(0,0,0,0.6); 
+					margin: 0 auto;
+					
+				}						
+			
+			</style>
+		</head>
+		<body>
+			<div id="b"></div>
+		</body>
+		</html>		
