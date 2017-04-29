@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <style type="text/css">
+ p {font-family:sans-serif;
+ 	}/*looks the same as 'nomarl' text.
+  /* font-family:Serif/Sans-serif/Monospace/Cursive/Fantasy;*/
+ p .s1{font-weight: 400;}
+ strong{font-weight: bolder;}/*even bolder than its parent */
+ strong b{font-weight: bolder;}/*bolder still*/
+ .s{font-weight: bold;
+ 	font-size:smaller;}
+ /* font-famiily:normal/bold/bolder/lighter/100-900/inherit;
+    400: normal
+    700: bold
+ */
+/* font-size:xx-small/x-small/small/medium/large/x-large/
+   xx-large\smaller\larger\<length>\<percentage>
+   其中绝对大小值包括：xx-small/x-small/small/medium/large/x-large/
+   xx-large
+   相对大小：smaller/larger
+
+*/
+.s2{font-size:12px;}
+em {font-size:120%;}
+.strong2{font-size: 135%;}
+.s3{font-weight: bolder;}
+/* font-style: italic/oblique/normal/ingerit;*/
+.s4{font-weight: bold;
+	font-variant: small-caps;}/*要求使用小型大写字母文本*/
+ </style>
+</head>
+<body>
+	<p id="1"><span class="s">Diversity</span> is essential to happiness (Serif)</p>
+
+	<p>This paragraph contains elemnts of increasing weight: there is a<span class="s1">span elment that contains a <strong>strongly emphasized element and a <b>boldface element</b></strong></span></p>
+
+	<p class="s2">This paragraph contains both<em> emphasis and <strong class="strong2">strong emphasis</strong></em>, both of which are larger than the paragraph </p>
+	
+	<p class="s3">继承问题 strong:12px*120%=14.4px then 14.4px*135%=19.44px</p>
+	<p class="s4">The Uses of font-variant On the Web</p>
+</body>
+</html>
